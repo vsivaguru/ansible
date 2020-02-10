@@ -1,1 +1,11 @@
 ansible -version
+
+apt install ansible
+
+Fichier de conf:
+  /etc/ansible/host
+
+
+*ssh-keygen
+*ssh-copy-id svinayagam2c@172.31.127.28
+
