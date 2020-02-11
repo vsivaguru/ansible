@@ -9,3 +9,16 @@ Fichier de conf:
 *ssh-keygen
 *ssh-copy-id svinayagam2c@172.31.127.28
 
+Module: 
+ansible <host> [-module] 
+
+Module ping:
+ansible srv -m ping --user=cloud_user
+
+Ip:
+ansible srv --list-hosts
+
+Module setup: (information de serveur ou vm)
+ansible srv -m setup --user=cloud_user | less
+
+
